@@ -20,7 +20,6 @@ public class HelloApplication implements WebMvcConfigurer {
 
     }
 
-
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(new PerformanceInteceptor());
